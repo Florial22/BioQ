@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Tokens */
+@theme {
+  --color-brand-bg: #124170;
+  --color-brand-accent: #67C090;
+  --color-brand-card: #26667F;
+  --color-brand-muted: #1A3136;
+}
+
+/* Make `btn` a real utility */
+@utility btn {
+  @apply rounded-2xl px-4 py-3 font-semibold disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+@layer base {
+  :root { color-scheme: dark; }
+
+  /* Smaller default type on phones; normal on ≥640px (sm) */
+  html { font-size: 15px; }
+  @media (min-width: 640px) {
+    html { font-size: 16px; }
+  }
+
+  html, body, #root { height: 100%; }
+
+  body {
+    @apply bg-brand-bg text-white;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@layer components {
+  .card { @apply bg-brand-card rounded-2xl p-4 shadow; }
+
+  /* Don't @apply custom classes here */
+  .btn-accent { @apply bg-brand-accent text-black hover:brightness-110; }
+
+  .option { @apply w-full rounded-2xl border border-white/15 py-3 px-4 text-left; }
+  .option-selected { @apply bg-brand-accent text-black border-transparent; }
+  .option-disabled { @apply opacity-60; }
+}

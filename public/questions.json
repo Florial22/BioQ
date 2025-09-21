@@ -1,0 +1,1701 @@
+[
+  {
+    "id": "genetics-0001",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What molecule carries genetic information in most living organisms?",
+    "options": ["RNA", "DNA", "Protein", "Lipid"],
+    "correctIndex": 1,
+    "explanation": "DNA stores hereditary information in cells; RNA helps with gene expression."
+  },
+  {
+    "id": "cell-biology-0001",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "What is the primary function of the mitochondria?",
+    "options": ["Protein synthesis", "Cellular respiration and ATP production", "Waste disposal", "Photosynthesis"],
+    "correctIndex": 1,
+    "explanation": "Mitochondria are the 'powerhouses' of the cell, generating energy (ATP) through cellular respiration."
+  },
+  {
+    "id": "cell-biology-0002",
+    "category": "cell",
+    "difficulty": "easy",
+    "prompt": "Which of the following is an example of a prokaryotic cell?",
+    "options": ["A plant cell", "An animal cell", "A bacterium", "A fungus"],
+    "correctIndex": 2,
+    "explanation": "Prokaryotic cells, like bacteria, lack a membrane-bound nucleus and other organelles."
+  },
+  {
+    "id": "cell-biology-0003",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "The process of a cell engulfing a large particle is known as:",
+    "options": ["Osmosis", "Phagocytosis", "Exocytosis", "Diffusion"],
+    "correctIndex": 1,
+    "explanation": "Phagocytosis is a type of endocytosis where a cell 'eats' a large particle."
+  },
+  {
+    "id": "cell-biology-0004",
+    "category": "cell",
+    "difficulty": "easy",
+    "prompt": "What is the main component of the plant cell wall?",
+    "options": ["Chitin", "Cellulose", "Peptidoglycan", "Lipids"],
+    "correctIndex": 1,
+    "explanation": "The plant cell wall is primarily composed of cellulose for structural support."
+  },
+  {
+    "id": "cell-biology-0005",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "Which organelle is responsible for modifying, sorting, and packaging proteins for secretion?",
+    "options": ["Endoplasmic reticulum", "Ribosome", "Golgi apparatus", "Lysosome"],
+    "correctIndex": 2,
+    "explanation": "The Golgi apparatus acts like a cell's 'post office,' preparing proteins for transport."
+  },
+  {
+    "id": "cell-biology-0006",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "The fluid mosaic model describes the structure of the:",
+    "options": ["Cell wall", "Nucleus", "Cytoskeleton", "Plasma membrane"],
+    "correctIndex": 3,
+    "explanation": "This model explains that the plasma membrane is a fluid combination of various molecules."
+  },
+  {
+    "id": "cell-biology-0007",
+    "category": "cell",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of meiosis?",
+    "options": ["To produce genetically identical daughter cells", "To repair damaged tissues", "To produce gametes (sex cells) with half the number of chromosomes", "To increase the size of an organism"],
+    "correctIndex": 2,
+    "explanation": "Meiosis is a cell division process that creates sex cells with half the number of chromosomes."
+  },
+  {
+    "id": "cell-biology-0008",
+    "category": "cell",
+    "difficulty": "easy",
+    "prompt": "What is the name of the process by which a cell's cytoplasm divides?",
+    "options": ["Karyokinesis", "Cytokinesis", "Mitosis", "Apoptosis"],
+    "correctIndex": 1,
+    "explanation": "Cytokinesis is the physical division of the cytoplasm into two daughter cells."
+  },
+  {
+    "id": "cell-biology-0009",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "Which organelle contains hydrolytic enzymes for breaking down cellular waste?",
+    "options": ["Peroxisome", "Vacuole", "Lysosome", "Centrosome"],
+    "correctIndex": 2,
+    "explanation": "Lysosomes are the cell's 'recycling centers,' breaking down waste using enzymes."
+  },
+  {
+    "id": "cell-biology-0010",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "In a eukaryotic cell, where does the process of transcription take place?",
+    "options": ["Cytoplasm", "Nucleus", "Ribosome", "Mitochondria"],
+    "correctIndex": 1,
+    "explanation": "Transcription, the copying of DNA to RNA, occurs inside the nucleus of eukaryotic cells."
+  },
+  {
+    "id": "anatomy-0001",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "Which bone is commonly known as the 'knee cap'?",
+    "options": ["Patella", "Tibia", "Femur", "Fibula"],
+    "correctIndex": 0,
+    "explanation": "The patella is the formal anatomical name for the kneecap."
+  },
+  {
+    "id": "anatomy-0002",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "The largest organ in the human body is the:",
+    "options": ["Liver", "Brain", "Heart", "Skin"],
+    "correctIndex": 3,
+    "explanation": "The skin is the largest organ, covering the body's entire exterior."
+  },
+  {
+    "id": "anatomy-0003",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "The human heart has how many chambers?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "correctIndex": 2,
+    "explanation": "The human heart has four chambers: two atria and two ventricles."
+  },
+  {
+    "id": "anatomy-0004",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "What is the primary function of the trachea?",
+    "options": ["To pump blood", "To digest food", "To transport air to the lungs", "To filter waste from the blood"],
+    "correctIndex": 2,
+    "explanation": "The trachea, or windpipe, is a tube that carries air to the lungs."
+  },
+  {
+    "id": "anatomy-0005",
+    "category": "anatomy",
+    "difficulty": "medium",
+    "prompt": "The vertebral column is composed of how many vertebrae?",
+    "options": ["24", "33", "40", "26"],
+    "correctIndex": 1,
+    "explanation": "The vertebral column typically consists of 33 vertebrae."
+  },
+  {
+    "id": "anatomy-0006",
+    "category": "anatomy",
+    "difficulty": "medium",
+    "prompt": "Which part of the brain is responsible for balance and coordination?",
+    "options": ["Cerebrum", "Medulla oblongata", "Cerebellum", "Hypothalamus"],
+    "correctIndex": 2,
+    "explanation": "The cerebellum is located at the back of the brain and is vital for movement and balance."
+  },
+  {
+    "id": "anatomy-0007",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "The humerus is a bone located in the:",
+    "options": ["Upper arm", "Lower leg", "Spine", "Foot"],
+    "correctIndex": 0,
+    "explanation": "The humerus is the long bone of the upper arm."
+  },
+  {
+    "id": "anatomy-0008",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "What is the scientific name for the collarbone?",
+    "options": ["Scapula", "Clavicle", "Sternum", "Radius"],
+    "correctIndex": 1,
+    "explanation": "The clavicle is the scientific term for the collarbone."
+  },
+  {
+    "id": "anatomy-0009",
+    "category": "anatomy",
+    "difficulty": "medium",
+    "prompt": "Which of the following is the largest artery in the human body?",
+    "options": ["Pulmonary artery", "Carotid artery", "Aorta", "Femoral artery"],
+    "correctIndex": 2,
+    "explanation": "The aorta is the main artery carrying blood away from the heart."
+  },
+  {
+    "id": "anatomy-0010",
+    "category": "anatomy",
+    "difficulty": "medium",
+    "prompt": "The small intestine is divided into three parts. Which of the following is NOT one of them?",
+    "options": ["Duodenum", "Jejunum", "Ileum", "Cecum"],
+    "correctIndex": 3,
+    "explanation": "The cecum is part of the large intestine, while the others are parts of the small intestine."
+  },
+  {
+    "id": "physiology-0001",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "What is the primary role of red blood cells?",
+    "options": ["Fighting infection", "Clotting blood", "Transporting oxygen", "Producing antibodies"],
+    "correctIndex": 2,
+    "explanation": "Red blood cells use hemoglobin to transport oxygen to the body's tissues."
+  },
+  {
+    "id": "physiology-0002",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "The hormone insulin is produced by which organ?",
+    "options": ["Liver", "Thyroid", "Pancreas", "Adrenal gland"],
+    "correctIndex": 2,
+    "explanation": "The pancreas produces insulin to regulate blood sugar levels."
+  },
+  {
+    "id": "physiology-0003",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "What is the functional unit of the kidney called?",
+    "options": ["Alveolus", "Neuron", "Nephron", "Myocyte"],
+    "correctIndex": 2,
+    "explanation": "Nephrons are the microscopic units in the kidney that filter blood and form urine."
+  },
+  {
+    "id": "physiology-0004",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "What is the primary function of the large intestine?",
+    "options": ["Breaking down fats", "Absorbing water and electrolytes", "Digesting proteins", "Producing digestive enzymes"],
+    "correctIndex": 1,
+    "explanation": "The large intestine's main role is to absorb water and remaining electrolytes from waste."
+  },
+  {
+    "id": "physiology-0005",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "Which of the following best describes the process of 'homeostasis'?",
+    "options": ["The process of cell division", "The body's ability to maintain a stable internal environment", "The conversion of food into energy", "The response to an external stimulus"],
+    "correctIndex": 1,
+    "explanation": "Homeostasis is the body's self-regulating process to maintain a stable internal state."
+  },
+  {
+    "id": "physiology-0006",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "Where does the majority of nutrient absorption occur in the human digestive system?",
+    "options": ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
+    "correctIndex": 2,
+    "explanation": "The small intestine's large surface area is specialized for absorbing nutrients."
+  },
+  {
+    "id": "physiology-0007",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "Which muscle is responsible for the inhalation phase of breathing?",
+    "options": ["Biceps", "Diaphragm", "Quadriceps", "Triceps"],
+    "correctIndex": 1,
+    "explanation": "The diaphragm contracts and flattens, increasing lung volume to draw in air."
+  },
+  {
+    "id": "physiology-0008",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "The fight-or-flight response is mediated by the:",
+    "options": ["Parasympathetic nervous system", "Central nervous system", "Somatic nervous system", "Sympathetic nervous system"],
+    "correctIndex": 3,
+    "explanation": "The sympathetic nervous system activates the 'fight-or-flight' response to stress."
+  },
+  {
+    "id": "physiology-0009",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "What is the function of cerebrospinal fluid (CSF)?",
+    "options": ["To digest food in the stomach", "To transport oxygen to muscles", "To cushion the brain and spinal cord", "To produce red blood cells"],
+    "correctIndex": 2,
+    "explanation": "CSF acts as a protective cushion for the brain and spinal cord."
+  },
+  {
+    "id": "physiology-0010",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "What is the primary function of platelets?",
+    "options": ["Transporting glucose", "Forming blood clots", "Fighting pathogens", "Releasing hormones"],
+    "correctIndex": 1,
+    "explanation": "Platelets are cell fragments that help the blood clot to stop bleeding."
+  },
+  {
+    "id": "genetics-0001",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What is the fundamental unit of heredity?",
+    "options": ["Cell", "Protein", "Gene", "Chromosome"],
+    "correctIndex": 2,
+    "explanation": "A gene is a segment of DNA that codes for a specific trait."
+  },
+  {
+    "id": "genetics-0002",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "Which of the following base pairs is found in DNA?",
+    "options": ["Adenine with Uracil", "Cytosine with Guanine", "Thymine with Cytosine", "Guanine with Adenine"],
+    "correctIndex": 1,
+    "explanation": "In DNA, Cytosine always pairs with Guanine, and Adenine with Thymine."
+  },
+  {
+    "id": "genetics-0003",
+    "category": "genetics",
+    "difficulty": "medium",
+    "prompt": "The process of copying a gene's DNA sequence to make an RNA molecule is called:",
+    "options": ["Translation", "Replication", "Transcription", "Mutation"],
+    "correctIndex": 2,
+    "explanation": "Transcription is the first step of gene expression, where DNA is copied into RNA."
+  },
+  {
+    "id": "genetics-0004",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What is the term for an organism's observable characteristics or traits?",
+    "options": ["Genotype", "Allele", "Phenotype", "Locus"],
+    "correctIndex": 2,
+    "explanation": "Phenotype is the set of observable traits resulting from an organism's genetic makeup."
+  },
+  {
+    "id": "genetics-0005",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "A heterozygous individual has:",
+    "options": ["Two identical alleles for a gene", "Two different alleles for a gene", "Only one allele for a gene", "No alleles for a gene"],
+    "correctIndex": 1,
+    "explanation": "A heterozygous individual has two different alleles for a specific gene."
+  },
+  {
+    "id": "genetics-0006",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What is a change in the DNA sequence called?",
+    "options": ["Recombination", "Meiosis", "Mutation", "Translocation"],
+    "correctIndex": 2,
+    "explanation": "A mutation is a permanent change in the DNA sequence."
+  },
+  {
+    "id": "genetics-0007",
+    "category": "genetics",
+    "difficulty": "hard",
+    "prompt": "Which of the following is an example of a dominant genetic disorder?",
+    "options": ["Cystic fibrosis", "Sickle cell anemia", "Huntington's disease", "Tay-Sachs disease"],
+    "correctIndex": 2,
+    "explanation": "Huntington's disease is an autosomal dominant disorder, requiring only one copy of the gene."
+  },
+  {
+    "id": "genetics-0008",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What is the process of a cell making an exact copy of its DNA?",
+    "options": ["Replication", "Transcription", "Translation", "Mitosis"],
+    "correctIndex": 0,
+    "explanation": "DNA replication creates two identical copies from one original DNA molecule."
+  },
+  {
+    "id": "genetics-0009",
+    "category": "genetics",
+    "difficulty": "medium",
+    "prompt": "In Mendel's law of independent assortment, what separates during gamete formation?",
+    "options": ["Alleles for different traits", "Sister chromatids", "Homologous chromosomes", "Genes on the same chromosome"],
+    "correctIndex": 0,
+    "explanation": "The law states that alleles for different traits are inherited independently of each other."
+  },
+  {
+    "id": "genetics-0010",
+    "category": "genetics",
+    "difficulty": "medium",
+    "prompt": "What is a karyotype?",
+    "options": ["A type of genetic mutation", "A visual representation of an individual's chromosomes", "A process of gene splicing", "A sequence of DNA bases"],
+    "correctIndex": 1,
+    "explanation": "A karyotype is an organized image of a person's chromosomes, used to check for abnormalities."
+  },
+  {
+    "id": "microbiology-0001",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "Which of the following is a key characteristic of viruses?",
+    "options": ["They are single-celled organisms", "They can reproduce independently", "They lack a cellular structure and require a host cell to replicate", "They contain both DNA and RNA"],
+    "correctIndex": 2,
+    "explanation": "Viruses are non-cellular and must infect a host cell to reproduce."
+  },
+  {
+    "id": "microbiology-0002",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "Bacteria that have a spherical shape are called:",
+    "options": ["Bacilli", "Spirilla", "Cocci", "Vibrios"],
+    "correctIndex": 2,
+    "explanation": "Cocci are bacteria with a round or spherical shape."
+  },
+  {
+    "id": "microbiology-0003",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "The cell wall of most bacteria is made of:",
+    "options": ["Chitin", "Cellulose", "Peptidoglycan", "Glycogen"],
+    "correctIndex": 2,
+    "explanation": "Peptidoglycan is a unique polymer that forms the bacterial cell wall."
+  },
+  {
+    "id": "microbiology-0004",
+    "category": "microbio",
+    "difficulty": "medium",
+    "prompt": "The process by which bacteria exchange genetic material through direct contact is called:",
+    "options": ["Transformation", "Transduction", "Conjugation", "Fission"],
+    "correctIndex": 2,
+    "explanation": "Conjugation is the transfer of genetic material between bacteria via a physical connection."
+  },
+  {
+    "id": "microbiology-0005",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "Which of the following is a type of fungus?",
+    "options": ["Algae", "Yeast", "Protozoa", "Virus"],
+    "correctIndex": 1,
+    "explanation": "Yeast is a single-celled fungus."
+  },
+  {
+    "id": "microbiology-0006",
+    "category": "microbio",
+    "difficulty": "hard",
+    "prompt": "What is a prion?",
+    "options": ["A type of virus", "An infectious protein", "A single-celled alga", "A type of bacterium"],
+    "correctIndex": 1,
+    "explanation": "Prions are misfolded proteins that can cause disease by inducing other proteins to misfold."
+  },
+  {
+    "id": "microbiology-0007",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "The study of fungi is known as:",
+    "options": ["Virology", "Mycology", "Phycology", "Bacteriology"],
+    "correctIndex": 1,
+    "explanation": "Mycology is the branch of biology dedicated to the study of fungi."
+  },
+  {
+    "id": "microbiology-0008",
+    "category": "microbio",
+    "difficulty": "medium",
+    "prompt": "What is a facultative anaerobe?",
+    "options": ["An organism that only grows in the absence of oxygen", "An organism that requires oxygen to grow", "An organism that can grow with or without oxygen", "An organism that is killed by oxygen"],
+    "correctIndex": 2,
+    "explanation": "A facultative anaerobe can survive and grow with or without oxygen."
+  },
+  {
+    "id": "microbiology-0009",
+    "category": "microbio",
+    "difficulty": "medium",
+    "prompt": "Which of the following is a common disease caused by a protist?",
+    "options": ["Influenza", "Athlete's foot", "Malaria", "Tuberculosis"],
+    "correctIndex": 2,
+    "explanation": "Malaria is a disease caused by a parasitic protist from the genus Plasmodium."
+  },
+  {
+    "id": "microbiology-0010",
+    "category": "microbio",
+    "difficulty": "medium",
+    "prompt": "What is a plasmid?",
+    "options": ["The main chromosome of a bacterium", "A small, circular, extrachromosomal DNA molecule", "A viral protein coat", "The cell membrane of a fungus"],
+    "correctIndex": 1,
+    "explanation": "Plasmids are small, circular DNA molecules separate from the main bacterial chromosome."
+  },
+  {
+    "id": "biochemistry-0001",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "What are the building blocks of proteins?",
+    "options": ["Monosaccharides", "Amino acids", "Fatty acids", "Nucleotides"],
+    "correctIndex": 1,
+    "explanation": "Amino acids are the monomers that link together to form proteins."
+  },
+  {
+    "id": "biochemistry-0002",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "The primary energy currency of the cell is:",
+    "options": ["DNA", "Glucose", "ATP", "Lipids"],
+    "correctIndex": 2,
+    "explanation": "ATP (adenosine triphosphate) is the molecule used to store and transfer energy for cellular activities."
+  },
+  {
+    "id": "biochemistry-0003",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "Which of the following is a monosaccharide?",
+    "options": ["Sucrose", "Starch", "Fructose", "Glycogen"],
+    "correctIndex": 2,
+    "explanation": "Fructose is a simple sugar, or monosaccharide; the others are more complex carbohydrates."
+  },
+  {
+    "id": "biochemistry-0004",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "What is the main function of an enzyme in a biological reaction?",
+    "options": ["To increase the activation energy", "To act as a source of energy", "To slow down the reaction rate", "To act as a catalyst and speed up the reaction"],
+    "correctIndex": 3,
+    "explanation": "Enzymes are biological catalysts that speed up reactions by lowering activation energy."
+  },
+  {
+    "id": "biochemistry-0005",
+    "category": "biochem",
+    "difficulty": "medium",
+    "prompt": "The process of breaking down glucose to produce pyruvate is called:",
+    "options": ["Glycolysis", "Photosynthesis", "The Krebs cycle", "Fermentation"],
+    "correctIndex": 0,
+    "explanation": "Glycolysis is the metabolic pathway that converts glucose into pyruvate."
+  },
+  {
+    "id": "biochemistry-0006",
+    "category": "biochem",
+    "difficulty": "medium",
+    "prompt": "What is the primary role of lipids in the body?",
+    "options": ["Providing quick energy", "Storing long-term energy", "Building muscle tissue", "Transporting oxygen"],
+    "correctIndex": 1,
+    "explanation": "Lipids (fats) are efficient molecules for long-term energy storage."
+  },
+  {
+    "id": "biochemistry-0007",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "The pH of a solution is a measure of its:",
+    "options": ["Temperature", "Water content", "Acidity or alkalinity", "Density"],
+    "correctIndex": 2,
+    "explanation": "pH measures the concentration of hydrogen ions, which determines acidity or alkalinity."
+  },
+  {
+    "id": "biochemistry-0008",
+    "category": "biochem",
+    "difficulty": "medium",
+    "prompt": "What are the components of a nucleotide?",
+    "options": ["A fatty acid, a glycerol, and a phosphate group", "A sugar, a phosphate group, and a nitrogenous base", "An amino acid, a side chain, and a carboxyl group", "A monosaccharide, a disaccharide, and a polysaccharide"],
+    "correctIndex": 1,
+    "explanation": "A nucleotide, the monomer of DNA and RNA, consists of a sugar, a phosphate, and a nitrogenous base."
+  },
+  {
+    "id": "biochemistry-0009",
+    "category": "biochem",
+    "difficulty": "medium",
+    "prompt": "What is the name of the process by which a protein loses its structure and function?",
+    "options": ["Polymerization", "Denaturation", "Hydrolysis", "Condensation"],
+    "correctIndex": 1,
+    "explanation": "Denaturation is the process where a protein loses its folded shape and becomes non-functional."
+  },
+  {
+    "id": "biochemistry-0010",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "Which of the following is an example of an inorganic molecule essential for life?",
+    "options": ["Glucose", "Amino acid", "Water", "Protein"],
+    "correctIndex": 2,
+    "explanation": "Water is an essential inorganic molecule necessary for all known life forms."
+  },
+  
+
+
+
+
+
+
+  {
+    "id": "cell-0001",
+    "category": "cell",
+    "difficulty": "easy",
+    "prompt": "Which organelle produces most of the cell’s ATP through aerobic respiration?",
+    "options": ["Nucleus", "Mitochondrion", "Ribosome", "Lysosome"],
+    "correctIndex": 1,
+    "explanation": "Mitochondria perform oxidative phosphorylation to generate ATP."
+  },
+  {
+    "id": "genetics-0002",
+    "category": "genetics",
+    "difficulty": "easy",
+    "prompt": "What term describes the observable characteristics of an organism?",
+    "options": ["Genotype", "Phenotype", "Allele", "Karyotype"],
+    "correctIndex": 1,
+    "explanation": "Phenotype is the outward expression of genes influenced by environment; genotype is the genetic makeup."
+  },
+  {
+    "id": "anatomy-0001",
+    "category": "anatomy",
+    "difficulty": "easy",
+    "prompt": "Which bone is the longest in the human body?",
+    "options": ["Femur", "Humerus", "Tibia", "Radius"],
+    "correctIndex": 0,
+    "explanation": "The femur (thigh bone) is the longest and strongest bone."
+  },
+  {
+    "id": "physiology-0001",
+    "category": "physiology",
+    "difficulty": "easy",
+    "prompt": "Which structure acts as the heart’s primary pacemaker?",
+    "options": ["AV node", "Purkinje fibers", "SA node", "Bundle of His"],
+    "correctIndex": 2,
+    "explanation": "The sinoatrial (SA) node initiates normal heart rhythm."
+  },
+  {
+    "id": "microbio-0001",
+    "category": "microbio",
+    "difficulty": "easy",
+    "prompt": "Which staining technique differentiates bacteria into Gram-positive and Gram-negative?",
+    "options": ["Acid-fast stain", "Gram stain", "Spore stain", "Negative stain"],
+    "correctIndex": 1,
+    "explanation": "Gram staining distinguishes bacteria based on cell wall structure and peptidoglycan thickness."
+  },
+  {
+    "id": "biochem-0001",
+    "category": "biochem",
+    "difficulty": "easy",
+    "prompt": "Which molecule forms the main structural component of cell membranes?",
+    "options": ["Phospholipids", "Glycogen", "DNA", "Cholesterol"],
+    "correctIndex": 0,
+    "explanation": "Phospholipids assemble into a bilayer that makes up the plasma membrane."
+  },
+
+  {
+    "id": "cell-0002",
+    "category": "cell",
+    "difficulty": "hard",
+    "prompt": "Which cytoskeletal component primarily provides tensile strength to cells and helps maintain structural integrity under stress?",
+    "options": ["Microtubules", "Intermediate filaments", "Actin microfilaments", "Centrioles"],
+    "correctIndex": 1,
+    "explanation": "Intermediate filaments (e.g., keratins, vimentin) resist tensile forces; microtubules resist compression and actin supports cell cortex/motility."
+  },
+  {
+    "id": "cell-0003",
+    "category": "cell",
+    "difficulty": "hard",
+    "prompt": "Which coat protein primarily mediates anterograde transport from ER to Golgi?",
+    "options": ["COPI", "COPII", "Clathrin", "Caveolin"],
+    "correctIndex": 1,
+    "explanation": "COPII is ER→Golgi (anterograde). COPI handles retrograde Golgi→ER. Clathrin buds from the trans-Golgi and plasma membrane."
+  },
+  {
+    "id": "cell-0004",
+    "category": "cell",
+    "difficulty": "medium",
+    "prompt": "During which phase of mitosis do chromosomes align on the equatorial plate?",
+    "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+    "correctIndex": 1,
+    "explanation": "Chromosomes align at the metaphase plate before separating during anaphase."
+  },
+
+  {
+    "id": "genetics-0003",
+    "category": "genetics",
+    "difficulty": "hard",
+    "prompt": "In the lac operon, when glucose is high and lactose is present, what best describes lac gene expression?",
+    "options": ["Maximal expression due to CAP–cAMP activation", "Basal/low expression because cAMP is low", "No expression because the repressor is bound", "Repression due to absence of allolactose"],
+    "correctIndex": 1,
+    "explanation": "Allolactose removes the repressor, but high glucose lowers cAMP so CAP doesn’t activate; net effect is low expression."
+  },
+  {
+    "id": "genetics-0004",
+    "category": "genetics",
+    "difficulty": "hard",
+    "prompt": "For an X-linked recessive disorder, an affected father and a carrier mother have a daughter. What is the probability she is affected?",
+    "options": ["0%", "25%", "50%", "100%"],
+    "correctIndex": 2,
+    "explanation": "Daughter gets the affected X from the father, and has a 50% chance to get the mutant allele from the carrier mother → 50% affected."
+  },
+  {
+    "id": "genetics-0005",
+    "category": "genetics",
+    "difficulty": "hard",
+    "prompt": "A nonsense mutation most directly results in which outcome?",
+    "options": ["Amino acid substitution in the protein", "Premature stop codon and truncated protein", "Frameshift altering downstream codons", "No change in the protein sequence"],
+    "correctIndex": 1,
+    "explanation": "Nonsense mutations create premature stop codons, truncating translation."
+  },
+
+  {
+    "id": "anatomy-0002",
+    "category": "anatomy",
+    "difficulty": "hard",
+    "prompt": "Which structures pass through the optic canal?",
+    "options": ["CN II and ophthalmic artery", "CN III and superior ophthalmic vein", "CN IV and V1", "CN VI and inferior ophthalmic vein"],
+    "correctIndex": 0,
+    "explanation": "Optic canal transmits the optic nerve (CN II) and ophthalmic artery. The superior orbital fissure carries CN III, IV, V1, VI and ophthalmic veins."
+  },
+  {
+    "id": "anatomy-0003",
+    "category": "anatomy",
+    "difficulty": "hard",
+    "prompt": "Which muscle initiates the first ~15° of arm abduction at the shoulder?",
+    "options": ["Deltoid", "Supraspinatus", "Infraspinatus", "Teres minor"],
+    "correctIndex": 1,
+    "explanation": "Supraspinatus initiates abduction; deltoid takes over beyond ~15°."
+  },
+  {
+    "id": "anatomy-0004",
+    "category": "anatomy",
+    "difficulty": "medium",
+    "prompt": "Which branch arises directly from the external carotid artery near its origin?",
+    "options": ["Superior thyroid artery", "Middle meningeal artery", "Vertebral artery", "Ophthalmic artery"],
+    "correctIndex": 0,
+    "explanation": "Superior thyroid is typically the first anterior branch of the external carotid. Middle meningeal comes from the maxillary (also ECA), while vertebral/ophthalmic are ICA branches."
+  },
+
+  {
+    "id": "physiology-0002",
+    "category": "physiology",
+    "difficulty": "hard",
+    "prompt": "The Bohr effect refers to which change in hemoglobin–oxygen binding?",
+    "options": ["Increased O2 affinity with higher CO2/H+", "Decreased O2 affinity (right shift) with higher CO2/H+", "No change with pH alterations", "Left shift with increased temperature"],
+    "correctIndex": 1,
+    "explanation": "Increased CO2/H+ shifts the O2–Hb dissociation curve right (reduced affinity)."
+  },
+  {
+    "id": "physiology-0003",
+    "category": "physiology",
+    "difficulty": "hard",
+    "prompt": "Where is the majority of filtered bicarbonate reabsorbed in the nephron?",
+    "options": ["Proximal tubule", "Thick ascending limb", "Distal convoluted tubule", "Collecting duct"],
+    "correctIndex": 0,
+    "explanation": "About 80–90% of filtered HCO₃⁻ is reclaimed in the proximal tubule."
+  },
+  {
+    "id": "physiology-0004",
+    "category": "physiology",
+    "difficulty": "medium",
+    "prompt": "The SA node’s pacemaker ‘funny’ current (If) is carried mainly by which ion through HCN channels?",
+    "options": ["Ca²⁺ influx", "Na⁺ influx", "K⁺ efflux", "Cl⁻ influx"],
+    "correctIndex": 1,
+    "explanation": "If is a mixed cation current with a prominent Na⁺ component through HCN channels, contributing to diastolic depolarization."
+  },
+
+  {
+    "id": "microbio-0002",
+    "category": "microbio",
+    "difficulty": "hard",
+    "prompt": "Which host receptor is primarily activated by the lipid A component of Gram-negative LPS?",
+    "options": ["TLR2", "TLR3", "TLR4", "NOD2"],
+    "correctIndex": 2,
+    "explanation": "TLR4 recognizes LPS (lipid A), triggering pro-inflammatory cytokines."
+  },
+  {
+    "id": "microbio-0003",
+    "category": "microbio",
+    "difficulty": "hard",
+    "prompt": "Vancomycin’s primary mechanism of action is:",
+    "options": [
+      "Binding D-Ala-D-Ala to block peptidoglycan polymerization",
+      "Inhibition of 50S peptidyl transferase",
+      "Disruption of bacterial DNA gyrase",
+      "Inhibition of folate synthesis at dihydropteroate synthase"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vancomycin binds D-Ala-D-Ala termini, preventing cell wall polymerization; resistance often replaces D-Ala-D-Ala with D-Ala-D-Lac."
+  },
+  {
+    "id": "microbio-0004",
+    "category": "microbio",
+    "difficulty": "hard",
+    "prompt": "β-lactam antibiotics primarily target which bacterial component?",
+    "options": ["Transpeptidases (PBPs)", "Ribosomal 30S subunit", "RNA polymerase", "DNA ligase"],
+    "correctIndex": 0,
+    "explanation": "They inhibit penicillin-binding proteins (transpeptidases) needed for cell wall cross-linking."
+  },
+  {
+    "id": "microbio-0005",
+    "category": "microbio",
+    "difficulty": "medium",
+    "prompt": "After Gram staining, Gram-positive bacteria appear purple because they:",
+    "options": [
+      "Have an outer membrane that retains safranin",
+      "Have thick peptidoglycan retaining crystal violet–iodine",
+      "Lack peptidoglycan entirely",
+      "Express lipid A in the outer leaflet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thick peptidoglycan traps crystal violet–iodine complexes; Gram-negative lose CV and take up safranin."
+  },
+
+  {
+    "id": "biochem-0002",
+    "category": "biochem",
+    "difficulty": "hard",
+    "prompt": "In competitive inhibition, what happens to Km and Vmax for the enzyme?",
+    "options": ["Km ↓, Vmax ↑", "Km ↑, Vmax unchanged", "Km unchanged, Vmax ↓", "Km ↑, Vmax ↓"],
+    "correctIndex": 1,
+    "explanation": "A competitive inhibitor increases apparent Km; Vmax is unchanged because high [S] can outcompete the inhibitor."
+  },
+  {
+    "id": "biochem-0003",
+    "category": "biochem",
+    "difficulty": "hard",
+    "prompt": "Which enzyme is the rate-limiting step of glycolysis under most conditions?",
+    "options": ["Hexokinase", "Phosphofructokinase-1 (PFK-1)", "Pyruvate kinase", "Aldolase"],
+    "correctIndex": 1,
+    "explanation": "PFK-1 is the major regulatory (rate-limiting) step of glycolysis."
+  },
+  {
+    "id": "biochem-0004",
+    "category": "biochem",
+    "difficulty": "hard",
+    "prompt": "Carbamoyl phosphate synthetase I (CPS I), a key urea-cycle enzyme, is located where and activated by what?",
+    "options": [
+      "Cytosol; N-acetylglutamate",
+      "Mitochondria; N-acetylglutamate",
+      "Mitochondria; carbamoyl phosphate",
+      "Cytosol; ornithine"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPS I is mitochondrial and requires N-acetylglutamate as an allosteric activator."
+  },
+  {
+    "id": "biochem-0005",
+    "category": "biochem",
+    "difficulty": "hard",
+    "prompt": "Which reduced cofactor yields more ATP per molecule via oxidative phosphorylation in mitochondria?",
+    "options": ["FADH2", "NADH", "NADPH", "CoQH2 (ubiquinol)"],
+    "correctIndex": 1,
+    "explanation": "NADH donates electrons to Complex I and yields ~2.5 ATP; FADH2 enters at Complex II (~1.5 ATP)."
+  }
+  ,
+
+
+
+
+
+
+
+
+
+
+  {
+  "id": "physiology-1000",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "Which structure within the cell produces ATP (adenosine triphosphate)?",
+  "options": ["Mitochondria", "Nucleus", "Peripheral proteins", "Endoplasmic reticulum"],
+  "correctIndex": 0,
+  "explanation": "Mitochondria are known as the 'powerhouses' of the cell because they generate ATP through cellular respiration. The nucleus controls genetic information, peripheral proteins are involved in cell signaling, and the endoplasmic reticulum handles protein and lipid synthesis, not ATP production."
+},
+
+{
+  "id": "cell-biology-1002",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "Which of the following is NOT a component of the cell plasma membrane?",
+  "options": ["Cholesterol", "Proteins", "Microfilaments", "Phospholipids"],
+  "correctIndex": 2,
+  "explanation": "Microfilaments are part of the cytoskeleton inside the cell, not the plasma membrane."
+},
+
+{
+  "id": "cell-1004",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Except for one, the following are types of cells. Which one is NOT a type of cell?",
+  "options": ["Platelets", "Leucocytes", "Macrophages", "Osteoblasts"],
+  "correctIndex": 0,
+  "explanation": "Platelets are cell fragments from megakaryocytes, not complete cells."
+}
+,
+{
+  "id": "cell-1005",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "In which part of a cell does the process of making ATP from oxygen and glucose take place?",
+  "options": ["Lysosomes", "Ribosomes", "Mitochondria", "Golgi apparatus"],
+  "correctIndex": 2,
+  "explanation": "Mitochondria produce ATP through cellular respiration using oxygen and glucose."
+}
+,
+{
+  "id": "cell-1006",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which of the following is NOT an example of a cell?",
+  "options": ["Macrophages", "Lysosomes", "Plasmocytes", "Chondroblasts"],
+  "correctIndex": 1,
+  "explanation": "Lysosomes are organelles, while the other options are types of cells."
+}
+,{
+  "id": "cell-1007",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which cell organelles contain an acidic environment capable of digesting a wide variety of molecules?",
+  "options": ["Lysosomes", "Ribosomes", "Centrosomes", "Golgi complex"],
+  "correctIndex": 0,
+  "explanation": "Lysosomes use digestive enzymes in an acidic environment to break down molecules."
+}
+,
+{
+  "id": "cell-1008",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "Which form of transport through the plasma membrane requires the expenditure of energy by the cell?",
+  "options": ["Facilitated diffusion", "Osmosis", "Active transport", "Diffusion"],
+  "correctIndex": 2,
+  "explanation": "Active transport uses ATP to move molecules against their concentration gradient, unlike passive processes."
+},
+{
+  "id": "anatomy-1010",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "Which of the tissue types below consists of a single layer of cells?",
+  "options": [
+    "Stratified squamous epithelial tissue",
+    "Glandular epithelium",
+    "Areolar connective tissue",
+    "Simple columnar epithelial tissue"
+  ],
+  "correctIndex": 3,
+  "explanation": "Simple columnar epithelium has a single layer of tall cells, while stratified means multiple layers."
+}
+,{
+  "id": "anatomy-1011",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "One of the following is NOT a serous membrane. Which one?",
+  "options": ["Pleura", "Peritoneum", "Mucosa", "Pericardium"],
+  "correctIndex": 2,
+  "explanation": "Mucosa lines body passages that open to the outside, while pleura, peritoneum, and pericardium are serous membranes."
+}
+,{
+  "id": "anatomy-1012",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "Which of the following is NOT made predominantly from epithelial tissue?",
+  "options": ["Dermis", "Exocrine glands", "Endocrine glands", "Endothelium of blood vessels"],
+  "correctIndex": 0,
+  "explanation": "The dermis is mostly connective tissue; glands and endothelium are epithelial."
+}
+,{
+  "id": "anatomy-1013",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What are tendons and ligaments composed of?",
+  "options": ["Dense connective tissue", "Liquid connective tissue", "Muscular tissue", "Epithelium"],
+  "correctIndex": 0,
+  "explanation": "Tendons and ligaments are made of dense connective tissue, giving them strength and flexibility."
+}
+,{
+  "id": "anatomy-1014",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the composition of the intercellular matrix in connective tissue?",
+  "options": [
+    "Cells and fibres",
+    "Serous and mucus membranes and lamina propria",
+    "Protein fibres and ground substance",
+    "Interstitial fluid"
+  ],
+  "correctIndex": 2,
+  "explanation": "The matrix is made of protein fibres and ground substance, not cells."
+}
+,{
+  "id": "cell-1015",
+  "category": "cell",
+  "difficulty": "hard",
+  "prompt": "Which statement about the plasma membrane is INCORRECT?",
+  "options": [
+    "It is selectively permeable.",
+    "It is composed of two layers of glycoprotein molecules.",
+    "It contains receptors for specific signalling molecules.",
+    "The plasma membranes of adjacent cells are held together by desmosomes."
+  ],
+  "correctIndex": 1,
+  "explanation": "The plasma membrane is a phospholipid bilayer."
+}
+,{
+  "id": "anatomy-1016",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT epithelial tissue?",
+  "options": ["The epidermis", "Glandular tissue", "The internal lining of blood vessels", "The dermis"],
+  "correctIndex": 3,
+  "explanation": "The dermis is mainly connective tissue, while the other options are epithelial."
+}
+,
+{
+  "id": "anatomy-1017",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT a cell found in connective tissue?",
+  "options": ["Adipocytes", "Chondroblasts", "Keratinocytes", "Osteoblasts"],
+  "correctIndex": 2,
+  "explanation": "Keratinocytes belong to the epidermis (epithelial tissue); the others are connective tissue cells."
+}
+,{
+  "id": "anatomy-1018",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What tissue has cells that are closely packed and that have one surface attached to a basement membrane and the other free to a space?",
+  "options": ["Epithelial tissue", "Muscle tissue", "Connective tissue", "Nervous tissue"],
+  "correctIndex": 0,
+  "explanation": "Epithelial tissue is tightly packed, anchored to a basement membrane, and exposed on one free surface."
+}
+,{
+  "id": "cell-1019",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "What is the name of the mechanism that ensures that there is a higher concentration of sodium ions in the extracellular fluid than in the intracellular fluid?",
+  "options": ["Facilitated diffusion", "The sodium-potassium pump", "Secondary active transport", "Osmosis"],
+  "correctIndex": 1,
+  "explanation": "The sodium-potassium pump uses ATP to move Na⁺ out and K⁺ into the cell."
+}
+,{
+  "id": "cell-1020",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "What are lysosomes, centrosomes and ribosomes examples of?",
+  "options": ["Stem cells", "Organelles within a cell", "Sensory receptors in the dermis", "Exocrine glands"],
+  "correctIndex": 1,
+  "explanation": "They are organelles inside the cell; the suffix '-some' means a small body."
+}
+,{
+  "id": "anatomy-1021",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What does simple columnar epithelial tissue refer to?",
+  "options": [
+    "A single layer of cells longer than they are wide.",
+    "A single layer of cells whose length, breadth and depth are about the same size.",
+    "Several layers of cells, all of the same type.",
+    "Several layers of cells but without a basement membrane."
+  ],
+  "correctIndex": 0,
+  "explanation": "Simple means one layer; columnar cells are taller than they are wide."
+}
+,{
+  "id": "anatomy-1022",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT an example of connective tissue?",
+  "options": ["Blood", "Bone", "Tendon", "Epidermis"],
+  "correctIndex": 3,
+  "explanation": "The epidermis is epithelial tissue, while blood, bone, and tendon are connective tissues."
+}
+,{
+  "id": "cell-1023",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which one of the following cell types is found in epithelial tissue?",
+  "options": ["Plasma cells", "Leucocytes", "Keratinocytes", "Chondroblasts"],
+  "correctIndex": 2,
+  "explanation": "Keratinocytes are the main cells of the epidermis, producing keratin in epithelial tissue."
+}
+,{
+  "id": "cell-1024",
+  "category": "cell",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT part of the plasma membrane of a cell?",
+  "options": ["Integral proteins", "Glycoproteins", "Plasma proteins", "Peripheral proteins"],
+  "correctIndex": 2,
+  "explanation": "Plasma proteins are found in blood plasma, not in the cell membrane."
+}
+,{
+  "id": "cell-1025",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "A major role for mitochondria is to:",
+  "options": [
+    "Transcribe the information in DNA (deoxyribonucleic acid)",
+    "Produce ATP (adenosine triphosphate)",
+    "Synthesise proteins from amino acids",
+    "Use enzymes to lyse molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mitochondria are the cell's powerhouses, generating ATP through cellular respiration."
+}
+,{
+  "id": "anatomy-1026",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Choose the tissue below that is one of the four primary types of body tissue.",
+  "options": ["Epidermal tissue", "Epithelial tissue", "Interstitial tissue", "Osseous tissue"],
+  "correctIndex": 1,
+  "explanation": "Epithelial tissue is one of the four primary types, along with muscle, nervous, and connective."
+}
+,{
+  "id": "anatomy-1027",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What are the primary types of tissue in the body?",
+  "options": [
+    "Muscle, nervous, connective and epithelial",
+    "Muscle, nervous, connective, osseous and epithelial",
+    "Muscle, nervous, connective, osseous, blood and epithelial",
+    "Muscle, nervous, connective, glandular and epithelial"
+  ],
+  "correctIndex": 0,
+  "explanation": "The four primary tissue types are muscle, nervous, connective, and epithelial."
+}
+,{
+  "id": "anatomy-1028",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the name of the membrane that surrounds the lungs?",
+  "options": ["Visceral peritoneum", "Parietal peritoneum", "Visceral pleura", "Dura mater"],
+  "correctIndex": 2,
+  "explanation": "The lungs are covered by the visceral pleura; the peritoneum surrounds abdominal organs, and the dura mater surrounds the brain and spinal cord."
+}
+,{
+  "id": "cell-1029",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "What is a role performed by mitochondria?",
+  "options": [
+    "Contain enzymes capable of digesting molecules",
+    "Produce ATP",
+    "Synthesise proteins",
+    "Synthesise fatty acids, phospholipids & cholesterol"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mitochondria produce ATP; lysosomes digest, ribosomes make proteins, and the endoplasmic reticulum synthesises lipids."
+}
+,{
+  "id": "cell-1030",
+  "category": "cell",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT found in the plasma membrane?",
+  "options": ["Proteins", "Cholesterol", "Endoplasmic reticulum", "Phospholipids"],
+  "correctIndex": 2,
+  "explanation": "The endoplasmic reticulum is an organelle inside the cell, not part of the plasma membrane."
+}
+,{
+  "id": "cell-1031",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which one of the following cell types is found in epithelial tissue?",
+  "options": ["Mast cells", "Adipocytes", "Chondroblasts", "Keratinocytes"],
+  "correctIndex": 3,
+  "explanation": "Keratinocytes are the main cells of the epidermis, which is epithelial tissue."
+}
+,{
+  "id": "cell-1032",
+  "category": "cell",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT part of the plasma membrane of a cell?",
+  "options": ["Phospholipid", "Glycoprotein", "Chromatin", "Cholesterol"],
+  "correctIndex": 2,
+  "explanation": "Chromatin is nuclear material, not a plasma membrane component."
+}
+,{
+  "id": "cell-1033",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "A major role for mitochondria is to:",
+  "options": [
+    "Synthesise fatty acids, phospholipids & steroids",
+    "Deliver lipids and proteins to plasma membrane for secretion",
+    "Synthesise proteins from amino acids",
+    "Produce ATP (adenosine triphosphate)"
+  ],
+  "correctIndex": 3,
+  "explanation": "Mitochondria generate ATP, while lipids and proteins are processed by the ER and Golgi, and proteins by ribosomes."
+}
+,{
+  "id": "anatomy-1034",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Choose the tissue below that is NOT one of the four primary types of body tissue.",
+  "options": ["Connective tissue", "Muscular tissue", "Nervous tissue", "Osseous tissue"],
+  "correctIndex": 3,
+  "explanation": "Osseous tissue is a subtype of connective tissue, not a primary type. The four main types are epithelial, connective, muscle, and nervous."
+}
+,{
+  "id": "cell-1035",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "What is the purpose of mitochondria?",
+  "options": [
+    "To store the nucleolus and chromatin",
+    "To produce adenosine triphosphate",
+    "To support and shape the cell",
+    "To produce enzymes to break down molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mitochondria are the site of ATP production."
+}
+,{
+  "id": "cell-1036",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "The plasma membrane of a cell contains molecules that have a hydrophobic end and a hydrophilic end. What are they called?",
+  "options": ["Phospholipids", "Cholesterol", "Integral proteins", "Glycoproteins"],
+  "correctIndex": 0,
+  "explanation": "Phospholipids form the bilayer, with hydrophilic phosphate heads and hydrophobic lipid tails."
+}
+,{
+  "id": "anatomy-1037",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Adipocytes are found in which type of tissue?",
+  "options": ["Muscle tissue", "Epithelial tissue", "Nervous tissue", "Connective tissue"],
+  "correctIndex": 3,
+  "explanation": "Adipocytes are fat cells located in adipose tissue, a type of connective tissue."
+}
+,{
+  "id": "cell-1038",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "What is the main role of mitochondria?",
+  "options": [
+    "Function in cell division",
+    "Synthesise proteins",
+    "Produce ATP",
+    "Synthesise fatty acids, phospholipids and steroids"
+  ],
+  "correctIndex": 2,
+  "explanation": "Mitochondria generate ATP through cellular respiration, providing energy for the cell."
+}
+,{
+  "id": "cell-1039",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which one of the following cell types is found in epithelial tissue?",
+  "options": ["Mast cells", "Adipocytes", "Chondroblasts", "Melanocytes"],
+  "correctIndex": 3,
+  "explanation": "Melanocytes are in epithelial tissue and produce melanin, which protects skin from UV radiation."
+}
+,{
+  "id": "anatomy-1040",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the difference between loose connective tissue and dense connective tissue?",
+  "options": [
+    "Fibres occupy most of the volume in dense connective tissue",
+    "Dense connective tissue includes cartilage, loose connective tissue does not",
+    "Loose connective tissue has a good blood supply while dense connective tissue does not",
+    "Loose connective tissue has no fibres, while dense connective tissue does"
+  ],
+  "correctIndex": 0,
+  "explanation": "Dense connective tissue contains more fibres, making it stronger and less flexible than loose connective tissue."
+}
+,{
+  "id": "cell-1041",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Facilitated diffusion refers to the process of:",
+  "options": [
+    "Movement along a concentration gradient assisted by protein carrier molecules",
+    "Movement of ions and molecules along a concentration gradient",
+    "Transport of molecules and ions against their concentration gradient",
+    "Water movement through a semi-permeable membrane"
+  ],
+  "correctIndex": 0,
+  "explanation": "Facilitated diffusion uses carrier proteins to move substances down their gradient; the other options describe simple diffusion, active transport, or osmosis."
+}
+,{
+  "id": "cell-1042",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "What do fibroblasts, chondroblasts, osteoblasts and haemocytoblasts have in common?",
+  "options": [
+    "They are all types of white blood cell",
+    "They are all macrophages",
+    "They are all immature cells",
+    "They are all types of epithelial cell"
+  ],
+  "correctIndex": 2,
+  "explanation": "The suffix '-blast' indicates an immature, developing cell."
+}
+,{
+  "id": "anatomy-1043",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Which is NOT true of connective tissue?",
+  "options": [
+    "The cells are closely packed",
+    "The tissue contains protein fibres and ground substance",
+    "Types include loose connective tissue, dense connective tissue and liquid connective tissue",
+    "Connective tissue contains white blood cells"
+  ],
+  "correctIndex": 0,
+  "explanation": "Connective tissue cells are widely spaced in a matrix, unlike epithelial cells which are closely packed."
+}
+,{
+  "id": "cell-1044",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Active transport across the plasma membrane may be described by which statement?",
+  "options": [
+    "Active transport requires energy from ATP",
+    "Active transport is also known as endocytosis",
+    "Active transport moves molecules along their concentration gradient",
+    "Active transport is the movement of lipid-soluble molecules through the plasma membrane"
+  ],
+  "correctIndex": 0,
+  "explanation": "Active transport uses ATP to move substances against their concentration gradient; the other statements are incorrect."
+}
+,{
+  "id": "cell-1045",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which of the following cell types denotes an immature cell?",
+  "options": ["Macrophages", "Monocytes", "Osteoblasts", "Ribosomes"],
+  "correctIndex": 2,
+  "explanation": "The suffix '-blast' indicates an immature, developing cell."
+}
+,{
+  "id": "anatomy-1046",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Choose the membrane that is NOT a serous membrane.",
+  "options": ["Pleura", "Peritoneum", "Pericardium", "Lamina propria"],
+  "correctIndex": 3,
+  "explanation": "The lamina propria is connective tissue beneath epithelium, not a serous membrane."
+}
+,{
+  "id": "cell-1047",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "Which organelle is the site of ATP production?",
+  "options": ["The nucleus", "Endoplasmic reticulum", "Mitochondria", "Golgi apparatus"],
+  "correctIndex": 2,
+  "explanation": "Mitochondria are the site of ATP production through cellular respiration."
+}
+,{
+  "id": "anatomy-1048",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "Which of the following is one major function of epithelial cells?",
+  "options": ["Movement", "Secretion", "Support of other cell types", "Transmit electrical signals"],
+  "correctIndex": 1,
+  "explanation": "Epithelial cells include glandular tissue, which secretes substances."
+}
+,{
+  "id": "anatomy-1049",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What are the major types of tissue in the body?",
+  "options": [
+    "Nervous, muscle, epithelial, connective",
+    "Squamous, cuboidal, columnar, transitional",
+    "Osteocytes, chondrocytes, leucocytes, adipocytes",
+    "Protein, adipose, cartilage, osseous"
+  ],
+  "correctIndex": 0,
+  "explanation": "The four major tissue types are nervous, muscle, epithelial, and connective."
+}
+,{
+  "id": "cell-1050",
+  "category": "cell",
+  "difficulty": "hard",
+  "prompt": "Which of the following is NOT one of the organelles within a cell?",
+  "options": ["Desmosome", "Endoplasmic reticulum", "Mitochondrion", "Golgi apparatus"],
+  "correctIndex": 0,
+  "explanation": "Desmosomes are junctions that link cells together, not organelles inside a cell."
+}
+,{
+  "id": "cell-1051",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "Which of the following is the smallest living structural unit of the body?",
+  "options": ["Atom", "Molecule", "Organelle", "Cell"],
+  "correctIndex": 3,
+  "explanation": "The cell is the smallest unit that carries out all life processes."
+}
+,{
+  "id": "cell-1052",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Which of the following enables ions such as sodium to cross a plasma membrane?",
+  "options": ["Phospholipid bilayer", "Peripheral proteins", "Integral proteins", "Desmosomes"],
+  "correctIndex": 2,
+  "explanation": "Integral proteins form channels or carriers that allow ions to cross the membrane."
+}
+,{
+  "id": "cell-1053",
+  "category": "cell",
+  "difficulty": "medium",
+  "prompt": "Cell membranes can maintain a difference in electrical charge between the interior of the cell and the extracellular fluid. What is this charge difference called?",
+  "options": ["Excitability", "The membrane potential", "The action potential", "The sodium-potassium pump"],
+  "correctIndex": 1,
+  "explanation": "The membrane potential is the electrical difference across the plasma membrane maintained by ion gradients."
+}
+,{
+  "id": "cell-1054",
+  "category": "cell",
+  "difficulty": "easy",
+  "prompt": "What is one function of mitochondria?",
+  "options": [
+    "Produce enzymes to break down molecules",
+    "Produce molecules of ATP",
+    "Hold adjacent cells together",
+    "Allow passage of molecules through the plasma membrane"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mitochondria make ATP, the cell’s main energy source."
+}
+,{
+  "id": "anatomy-1055",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "An 'umbilicoplasty' is a form of cosmetic surgery intended to modify the appearance of what typically unnoticed body part?",
+  "options": ["Belly button", "Earlobe", "Nipple", "Chin"],
+  "correctIndex": 0,
+  "explanation": "Umbilicoplasty is cosmetic surgery of the umbilicus (belly button)."
+},
+{
+  "id": "anatomy-1056",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What joint in your arm is where the humerus, radius, and ulna bones all meet?",
+  "options": ["Wrist", "Shoulder", "Elbow", "Knee"],
+  "correctIndex": 2,
+  "explanation": "The elbow joint connects the humerus with the radius and ulna."
+}
+,{
+  "id": "anatomy-1057",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "Common in athletes, ACL surgery reconstructs or replaces a ligament located in what joint of the body?",
+  "options": ["Elbow", "Knee", "Shoulder", "Ankle"],
+  "correctIndex": 1,
+  "explanation": "The anterior cruciate ligament (ACL) is located in the knee joint."
+}
+,{
+  "id": "anatomy-1058",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Which sensory organ is the tympanic membrane found in?",
+  "options": ["Eye", "Nose", "Ear", "Tongue"],
+  "correctIndex": 2,
+  "explanation": "The tympanic membrane, or eardrum, is located in the ear and transmits sound vibrations."
+}
+,{
+  "id": "anatomy-1059",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "The average adult has about 22 square feet (or about 8 pounds) of which organ, making it the largest in the human body?",
+  "options": ["Liver", "Skin", "Lungs", "Intestines"],
+  "correctIndex": 1,
+  "explanation": "The skin is the body’s largest organ by surface area and weight."
+}
+,{
+  "id": "anatomy-1060",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "There are about 5.6 liters (or about 7% of their total body weight) of which life-giving fluid in the average adult’s body?",
+  "options": ["Lymph", "Blood", "Cerebrospinal fluid", "Plasma"],
+  "correctIndex": 1,
+  "explanation": "An average adult has about 5.6 liters of blood, which transports oxygen, nutrients, and waste products."
+}
+,{
+  "id": "physiology-1061",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "What is the C-word phase for muscles shortening while they are exerting force?",
+  "options": ["Conduction phase", "Concentric phase", "Convolution phase", "Contraction phase"],
+  "correctIndex": 1,
+  "explanation": "The concentric phase is when muscles shorten while generating force, such as lifting a weight."
+}
+,{
+  "id": "anatomy-1062",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Which part of the body is comprised of the carpus and metacarpus?",
+  "options": ["Foot","Ankle", "Knee","Hand"],
+  "correctIndex": 3,
+  "explanation": "The carpus and metacarpus form the wrist and hand region."
+},
+{
+  "id": "anatomy-1063",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "Recent research suggests that what organ is not vestigial, as earlier believed, but may act as a reservoir for beneficial gut bacteria?",
+  "options": ["Appendix", "Gallbladder", "Pancreas", "Spleen"],
+  "correctIndex": 0,
+  "explanation": "The appendix is now thought to store healthy gut bacteria rather than being a useless organ."
+}
+,{
+  "id": "anatomy-1064",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What 'P' membrane-lined cavity sits behind the nose and mouth, connecting both to the esophagus? It rhymes with the larynx.",
+  "options": ["Pharynx", "Peritoneum", "Pleura", "Pylorus"],
+  "correctIndex": 0,
+  "explanation": "The pharynx connects the nasal and oral cavities to the esophagus and rhymes with larynx."
+}
+,{
+  "id": "anatomy-1065",
+  "category": "anatomy",
+  "difficulty": "hard",
+  "prompt": "Also known as pyramidal cells due to their size and shape, Betz cells are located in which part of the human body?",
+  "options": ["Heart", "Liver", "Brain", "Kidney"],
+  "correctIndex": 2,
+  "explanation": "Betz cells are large pyramidal neurons found in the motor cortex of the brain."
+}
+,{
+  "id": "physiology-1067",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "Which blood type is universal (compatible with any blood types)?",
+  "options": ["AB+", "O-", "A+", "B-"],
+  "correctIndex": 1,
+  "explanation": "O negative is the universal donor because it lacks A, B, and Rh antigens."
+}
+,{
+  "id": "physiology-1068",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "Where are red blood corpuscles formed?",
+  "options": ["Bone marrow", "Liver", "Spleen", "Kidneys"],
+  "correctIndex": 0,
+  "explanation": "Red blood cells are produced in the bone marrow through the process of erythropoiesis."
+}
+,{
+  "id": "physiology-1069",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "The pancreas produces which of these hormones?",
+  "options": ["Insulin", "Adrenaline", "Thyroxine", "Cortisol"],
+  "correctIndex": 0,
+  "explanation": "The pancreas produces insulin, which regulates blood glucose levels."
+}
+,{
+  "id": "anatomy-1070",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "The duodenum is part of what body system?",
+  "options": ["Respiratory system", "Circulatory system", "Nervous system", "Digestive system"],
+  "correctIndex": 3,
+  "explanation": "The duodenum is the first section of the small intestine, part of the digestive system."
+}
+,{
+  "id": "anatomy-1071",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What does the epigastric region contain?",
+  "options": ["Liver and stomach", "Bladder", "Appendix", "Rectum"],
+  "correctIndex": 0,
+  "explanation": "The epigastric region, located above the stomach, mainly contains parts of the liver and stomach."
+}
+,{
+  "id": "anatomy-1072",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Which organ stores bile?",
+  "options": ["Pancreas", "Gallbladder", "Liver", "Small intestine"],
+  "correctIndex": 1,
+  "explanation": "The gallbladder stores bile produced by the liver and releases it into the small intestine."
+}
+,{
+  "id": "anatomy-1073",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the length of the human digestive system when stretched out from end to end?",
+  "options": ["3 meters", "6 meters", "12 meters", "9 meters"],
+  "correctIndex": 3,
+  "explanation": "The human digestive system is about 9 meters long when fully extended."
+}
+,{
+  "id": "anatomy-1073",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the length of the human digestive system when stretched out from end to end?",
+  "options": ["10 feet", "15 feet", "30 feet", "50 feet"],
+  "correctIndex": 2,
+  "explanation": "The human digestive system is about 30 feet long when fully extended."
+}
+,{
+  "id": "anatomy-1074",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Which is the largest part of the brain?",
+  "options": ["Cerebellum", "Cerebrum", "Brainstem", "Thalamus"],
+  "correctIndex": 1,
+  "explanation": "The cerebrum is the largest part of the brain, responsible for higher functions such as thought and memory."
+}
+,{
+  "id": "anatomy-1075",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the black dot in the middle of the eye called?",
+  "options": ["Pupil", "Iris", "Lens", "Cornea"],
+  "correctIndex": 0,
+  "explanation": "The pupil is the black circular opening in the center of the eye that controls the amount of light entering."
+}
+,{
+  "id": "anatomy-1076",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the longest bone in the body?",
+  "options": ["Humerus", "Tibia", "Femur", "Fibula"],
+  "correctIndex": 2,
+  "explanation": "The femur, or thigh bone, is the longest and strongest bone in the human body."
+}
+,{
+  "id": "anatomy-1077",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the correct term for the wrist joint?",
+  "options": ["Metacarpophalangeal joint", "Radioulnar joint", "Carpal joint", "Radiocarpal joint"],
+  "correctIndex": 3,
+  "explanation": "The wrist joint is properly called the radiocarpal joint, where the radius meets the carpal bones."
+}
+,{
+  "id": "anatomy-1079",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What substance primarily makes up the nose?",
+  "options": ["Bone", "Muscle", "Cartilage", "Fat"],
+  "correctIndex": 2,
+  "explanation": "The nose is primarily made of cartilage, which provides structure and flexibility."
+},
+{
+  "id": "anatomy-1080",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the name of the body system that transports blood?",
+  "options": ["Respiratory", "Digestive", "Cardiovascular", "Lymphatic"],
+  "correctIndex": 2,
+  "explanation": "The cardiovascular system transports blood through the heart and blood vessels."
+},
+
+{
+  "id": "anatomy-1081",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the largest artery in the body?",
+  "options": ["Femoral artery", "Aorta", "Subclavian artery", "Radial artery"],
+  "correctIndex": 1,
+  "explanation": "The aorta is the body’s largest artery, carrying blood from the heart to the rest of the body."
+}
+,{
+  "id": "anatomy-1082",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "Which protein is found in hair and fingernails?",
+  "options": ["Calcium", "Dystrophin", "Myosin", "Keratin"],
+  "correctIndex": 3,
+  "explanation": "Keratin is the structural protein that makes up hair and fingernails."
+}
+,{
+  "id": "anatomy-1083",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "How many bones does an adult human have?",
+  "options": ["206", "201", "210", "250"],
+  "correctIndex": 0,
+  "explanation": "An adult human skeleton is made up of 206 bones."
+}
+,{
+  "id": "anatomy-1084",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What is the largest gland in the body?",
+  "options": ["Thyroid gland", "Pancreas", "Liver", "Adrenal gland"],
+  "correctIndex": 2,
+  "explanation": "The liver is the largest gland in the body and performs many vital functions, including detoxification and bile production."
+}
+,{
+  "id": "physiology-1085",
+  "category": "physiology",
+  "difficulty": "hard",
+  "prompt": "How much saliva does an average human produce in a lifetime?",
+  "options": ["15,000 gallons", "25,000 quarts", "250,000 quarts", "200,000 gallons"],
+  "correctIndex": 2,
+  "explanation": "On average, a person produces about 250,000 quarts of saliva over a lifetime."
+}
+,{
+  "id": "physiology-1086",
+  "category": "physiology",
+  "difficulty": "easy",
+  "prompt": "Approximately, how much of the body is composed of water?",
+  "options": ["90%", "60%", "40%", "25%"],
+  "correctIndex": 1,
+  "explanation": "About 60% of the human body is made up of water, though this varies with age and sex."
+}
+,{
+  "id": "anatomy-1087",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "How many muscles control the eyeballs?",
+  "options": ["4", "2", "8", "6"],
+  "correctIndex": 3,
+  "explanation": "Each eyeball is controlled by six extraocular muscles that move it in different directions."
+}
+,{
+  "id": "anatomy-1088",
+  "category": "anatomy",
+  "difficulty": "easy",
+  "prompt": "What connects bones and muscles together?",
+  "options": ["Ligaments", "Cartilage", "Tendons", "Fascia"],
+  "correctIndex": 2,
+  "explanation": "Tendons connect muscles to bones, while ligaments connect bone to bone."
+}
+,{
+  "id": "anatomy-1089",
+  "category": "anatomy",
+  "difficulty": "medium",
+  "prompt": "What is the average thickness of human skin?",
+  "options": ["2–3 millimeters", "1 centimeter", "0.1 millimeters", "5 centimeters"],
+  "correctIndex": 0,
+  "explanation": "Human skin averages 2–3 mm thick, though it varies from thinner on eyelids to thicker on palms and soles."
+}
+,{
+  "id": "physiology-1090",
+  "category": "physiology",
+  "difficulty": "medium",
+  "prompt": "Roughly how many taste buds are on the tongue?",
+  "options": ["500", "10,000", "50,000", "100,000"],
+  "correctIndex": 1,
+  "explanation": "The human tongue has about 10,000 taste buds, though the number declines with age."
+}
+
+
+]

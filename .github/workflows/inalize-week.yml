@@ -1,0 +1,21 @@
+name: Finalize Weekly Winners
+
+on:
+  schedule:
+    - cron: "5 5 * * 1"   # Mondays 05:05 UTC
+  workflow_dispatch:       # allow manual runs from the Actions tab
+
+jobs:
+  call-finalize-week:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call finalize_week
+        run: |
+          curl -sS -X GET \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            -H "x-cron-secret: $CRON_SECRET" \
+            "$SUPABASE_FUNCTION_URL"
+        env:
+          SUPABASE_FUNCTION_URL: https://ecihcieaudhynjejzyky.functions.supabase.co/finalize_week
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
