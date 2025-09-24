@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import { supabase } from "../lib/supabase";
 import { avatarUrlFor } from "../constants/avatars";
 
@@ -116,7 +116,7 @@ function Row({ rank, entry, isMe }: { rank: number; entry: RowEntry; isMe: boole
 }
 
 export default function Leaderboard() {
-  const navigate = useNavigate();
+
   const [rows, setRows] = useState<RowEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState<string | null>(null);
