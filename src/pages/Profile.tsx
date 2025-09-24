@@ -1,9 +1,9 @@
-// src/pages/Profile.tsx
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import { avatarUrlFor } from "../constants/avatars";
 import { Trophy } from "../components/Trophy";
+import { Flame, Snowflake } from "lucide-react";
 
 type DBProfile = {
   id: string;
@@ -12,6 +12,8 @@ type DBProfile = {
   wins_1st?: number | null;
   wins_2nd?: number | null;
   wins_3rd?: number | null;
+  streak_count?: number | null;
+  freeze_count?: number | null;
 };
 
 function deviceId(): string {
@@ -38,6 +40,10 @@ export default function Profile() {
   const [wins2, setWins2] = useState(0);
   const [wins3, setWins3] = useState(0);
 
+  // streak data
+  const [streak, setStreak] = useState(0);
+  const [freezes, setFreezes] = useState(0);
+
   useEffect(() => {
     (async () => {
       setLoading(true);
@@ -53,15 +59,17 @@ export default function Profile() {
           setWins1(0);
           setWins2(0);
           setWins3(0);
+          setStreak(0);
+          setFreezes(0);
           return;
         }
 
         setUserId(user.id);
 
-        // Only read counters that the weekly finalizer updates (no live guesses)
+        // Only read counters that the weekly finalizer / streak RPC updates
         const { data, error } = await supabase
           .from("profiles")
-          .select("id, display_name, avatar_url, wins_1st, wins_2nd, wins_3rd")
+          .select("id, display_name, avatar_url, wins_1st, wins_2nd, wins_3rd, streak_count, freeze_count")
           .eq("id", user.id)
           .maybeSingle<DBProfile>();
 
@@ -73,6 +81,9 @@ export default function Profile() {
         setWins1((data?.wins_1st ?? 0) | 0);
         setWins2((data?.wins_2nd ?? 0) | 0);
         setWins3((data?.wins_3rd ?? 0) | 0);
+
+        setStreak((data?.streak_count ?? 0) | 0);
+        setFreezes((data?.freeze_count ?? 0) | 0);
       } catch (e: any) {
         setErr(e?.message ?? "Failed to load profile");
       } finally {
@@ -91,7 +102,7 @@ export default function Profile() {
     });
   }
 
-  // Show “×N” when >1, blank when 1, and ×0 if 0 (but whole section is hidden when total is 0)
+  // Show “×N” when >1, blank when 1, and ×0 if 0 (but whole trophy section is hidden when total is 0)
   const mult = (n: number) => (n === 0 ? "×0" : n === 1 ? "" : `×${n}`);
   const hasAnyTrophy = wins1 + wins2 + wins3 > 0;
 
@@ -125,6 +136,25 @@ export default function Profile() {
                 <div className="text-lg font-semibold opacity-90">{displayName}</div>
               </div>
             </div>
+
+            {/* Daily streak (signed-in only) */}
+            {userId && (
+              <section className="space-y-2">
+                <h2 className="text-base font-semibold">Daily streak</h2>
+                <div className="rounded-2xl bg-white/8 border border-white/15 p-3 flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2">
+                      <Flame className={`w-5 h-5 ${streak > 0 ? "text-brand-accent" : "text-white/40"}`} />
+                      <span className="text-base tabular-nums">{streak} day{streak === 1 ? "" : "s"}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Snowflake className="w-5 h-5 text-white/70" />
+                      <span className="text-sm tabular-nums">Freezes: {freezes} / 5</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            )}
 
             {/* Trophies (show only if at least one) */}
             {hasAnyTrophy && (
@@ -189,7 +219,7 @@ export default function Profile() {
             {!userId && (
               <div className="space-y-2">
                 <div className="text-sm opacity-80">
-                  Sign in to save progress and earn weekly trophies.
+                  Sign in to save progress, track streaks, and earn weekly trophies.
                 </div>
                 <button className="btn btn-accent w-full" onClick={signIn}>
                   Continue with Google

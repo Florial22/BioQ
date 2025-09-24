@@ -146,7 +146,7 @@ export default function Quiz() {
   const [nowTs, setNowTs] = useState(() => Date.now());
   const expiredRef = useRef(false);
 
-  // One-time guard for perfect-score sound
+  // Guard for perfect-score sound
   const perfectPlayedRef = useRef(false);
 
   // --- load bank -----------------------------------------------------
@@ -241,7 +241,7 @@ export default function Quiz() {
   const [saved, setSaved] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
 
-  // --- report state (unchanged) -------------------------------------
+  // --- report state ---------------------------------------------------
   const [showReport, setShowReport] = useState(false);
   const [reportOther, setReportOther] = useState("");
   const [reportIssues, setReportIssues] = useState({
@@ -255,7 +255,7 @@ export default function Quiz() {
   const [sendingReport, setSendingReport] = useState(false);
   const [showThanks, setShowThanks] = useState(false);
 
-  // Dim-page scroll lock for report popover
+  // Dim-page scroll lock
   useEffect(() => {
     document.body.style.overflow = showReport ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
@@ -596,6 +596,20 @@ export default function Quiz() {
         if ((error as any).code === "23505" || /one_per_day/i.test(error.message)) setSaved(true);
         else throw error;
       } else setSaved(true);
+
+      // 🔥 Update streak after a successful weekly save (signed-in users only)
+      if (user_id) {
+        try {
+          await supabase.rpc("apply_daily_streak", {
+            p_user_id: user_id,
+            p_day: localDateKey(),
+          });
+          // ping UI listeners (TopBar/Profile) to refresh streak
+          window.dispatchEvent(new CustomEvent("profile:refresh"));
+        } catch (e) {
+          console.warn("apply_daily_streak failed:", e);
+        }
+      }
     } catch (e: any) {
       setSaveError(e?.message ?? "Save failed");
     } finally {
